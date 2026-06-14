@@ -2,12 +2,6 @@
 
 Projeto simples desenvolvido em Python utilizando OpenCV para realizar a contagem de veículos em vídeo.
 
-## Tecnologias Utilizadas
-
-- Python
-- OpenCV
-- NumPy
-
 ## Instalação
 
 Instale as dependências:
@@ -19,7 +13,7 @@ pip install opencv-python numpy
 ## Estrutura
 
 ```
-Projeto/
+conta_carros/
 │
 ├── contacarros.py
 ├── contacarros.mp4
@@ -33,10 +27,6 @@ Execute o arquivo Python:
 ```bash
 python contacarros.py
 ```
-
-## Funcionamento
-
-O sistema utiliza detecção de movimento para monitorar uma região específica da pista. Quando um veículo entra na área definida, ele é contabilizado uma única vez e o contador é atualizado em tempo real.
 
 ## Autor
 
